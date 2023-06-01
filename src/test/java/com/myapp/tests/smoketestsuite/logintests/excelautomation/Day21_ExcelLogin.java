@@ -48,7 +48,7 @@ public class Day21_ExcelLogin {
 //            LOG OUT
 //            click on id
             rentalHomePage.userID.click();
-            WaitUtils.waitFor(1);
+            WaitUtils.waitFor(3);
 //            click on logout
             rentalHomePage.logOut.click();
             WaitUtils.waitFor(1);
