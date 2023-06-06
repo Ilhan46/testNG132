@@ -60,7 +60,7 @@ public class Day17_Annotations {
     }
     @Test(priority = 1)
     public void test2(){
-        System.out.println("Test 1");
+        System.out.println("Test 2");
     }
     @Test @Ignore
     public void test3(){
@@ -79,4 +79,5 @@ public class Day17_Annotations {
     public void test6(){
         System.out.println("Test 6");
     }
+
 }

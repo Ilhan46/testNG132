@@ -6,7 +6,7 @@ import org.testng.asserts.SoftAssert;
 
 public class Day18_Assertions {
 
-    @Test
+    @Test(groups = "regression1")
     public void hardAssertion(){
         /*
         Hard assertion will stop if the assertion fails. This is used A LOT
@@ -18,7 +18,7 @@ public class Day18_Assertions {
         System.out.println("Line 17 codes");//WILL NOW EXECUTE
     }
 
-    @Test
+    @Test(groups = "regression1")
     public void softAssertions(){
         /*
         Test case will continue to execute EVEN IF A TEST ASSERTION FAILS
